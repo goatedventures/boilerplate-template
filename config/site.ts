@@ -232,8 +232,7 @@ export const siteConfig: SiteConfig = {
     { label: "Services", href: "#services" },
     { label: "Reviews", href: "#reviews" },
     { label: "About", href: "#about" },
-    { label: "FAQ", href: "#faq" },
-    { label: "Contact", href: "#contact" },
+    { label: "Contact", href: "#quote" },
   ],
 
   seo: {
