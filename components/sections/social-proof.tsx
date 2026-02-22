@@ -5,7 +5,7 @@ export function SocialProof() {
   const { hero, business } = siteConfig
 
   return (
-    <section id="reviews" className="border-y bg-muted/30 py-6">
+    <section className="border-y bg-muted/30 py-6">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-4 px-4 sm:flex-row sm:gap-8 sm:px-6 lg:px-8">
         {/* Star Rating */}
         <div className="flex items-center gap-2">
