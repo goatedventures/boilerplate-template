@@ -61,7 +61,7 @@ export default async function OGImage() {
           height: "100%",
           display: "flex",
           fontFamily: "Inter, sans-serif",
-          background: `linear-gradient(145deg, ${colors.dark} 0%, #292019 60%, #3D2A18 100%)`,
+          background: `linear-gradient(145deg, ${colors.dark} 0%, ${colors.darkCard} 60%, ${colors.darkCard} 100%)`,
           position: "relative",
           overflow: "hidden",
         }}
