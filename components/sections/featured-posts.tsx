@@ -10,7 +10,7 @@ export function FeaturedPosts() {
   if (posts.length === 0) return null
 
   return (
-    <section className="border-y bg-muted/30 py-16 sm:py-20" id="blog">
+    <section className="border-t bg-muted/30 py-16 sm:py-20" id="blog">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between gap-4">
           <div>
