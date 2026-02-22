@@ -16,7 +16,7 @@ export function HowItWorks() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-10 lg:grid-cols-3 lg:gap-0">
+        <div className="mt-10 grid gap-10 md:grid-cols-3 md:gap-0">
           {howItWorks.map((step, index) => (
             <div
               key={step.step}
@@ -24,7 +24,7 @@ export function HowItWorks() {
             >
               {/* Connector between circles (desktop only, not after last) */}
               {index < howItWorks.length - 1 && (
-                <div className="absolute left-[calc(50%+28px)] right-[calc(-50%+28px)] top-6 hidden border-t-2 border-dashed border-border lg:block" />
+                <div className="absolute left-[calc(50%+28px)] right-[calc(-50%+28px)] top-6 hidden border-t-2 border-dashed border-border md:block" />
               )}
 
               {/* Step Number */}

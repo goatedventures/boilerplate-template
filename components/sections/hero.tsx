@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-primary/5 to-background">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-center gap-10 md:grid-cols-2 md:gap-12 lg:gap-16">
           {/* Content */}
           <div className="space-y-6">
             {/* Availability Badge */}
@@ -89,7 +89,7 @@ export function Hero() {
           </div>
 
           {/* Hero Image Placeholder */}
-          <div className="relative hidden lg:block">
+          <div className="relative hidden md:block">
             <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-muted">
               {/* AI agents: replace with next/image pointing to a real photo */}
               <div className="flex h-full items-center justify-center text-muted-foreground">
