@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" fill="none">
+  <rect width="40" height="40" rx="8" fill="#2563eb"/>
+  <path d="M12 20 L20 12 L28 20 L20 28 Z" fill="white"/>
+  <text x="50" y="27" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Your Trade</text>
+</svg>
