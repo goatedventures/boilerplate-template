@@ -10,6 +10,7 @@ import { HowItWorks } from "@/components/sections/how-it-works"
 import { Portfolio } from "@/components/sections/portfolio"
 import { CTAForm } from "@/components/sections/cta-form"
 import { FAQ } from "@/components/sections/faq"
+import { FeaturedPosts } from "@/components/sections/featured-posts"
 import {
   generateFAQSchema,
   generateServiceSchema,
@@ -42,6 +43,7 @@ export default function HomePage() {
         <Portfolio />
         <CTAForm />
         <FAQ />
+        <FeaturedPosts />
       </main>
 
       <Footer />
